@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- أيقونة الموقع -->
+  <link rel="icon" href="shopping_cart.png" />
+  <!-- CSS ملف -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <!-- Bootstrap قالب -->
+  <link rel="stylesheet" href="./assets/css/bootstrap-sketchy.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Corinthia&display=swap" rel="stylesheet">
+  <!-- font-awesome مكتبة -->
+  <!-- قم باستيراد مكتبة font-awesome هنا أو أي مكتبة متاحة لأيقونات التحميل -->
+  <title>Baqala Online</title>
+</head>
+
+<!-- <body onload="myFunction()"> -->
+<!-- <div id="page" style="display:none;"> -->
+<div id="sidebar">
+  <img src="shopping_cart.png" class="logo" alt="website logo" />
+  <h3>Baqala<br>Online</h3>
+  <section> 
+    <h4 class="menu-item">
+      <a href="./index.html">SHOPPING</a>
+      <br></br>
+      <a href="">Add a item</a>
+      <br></br>
+      <a href="">See my Cart</a>
+    </h4>
+  </section>
+</div>
+<h2>Baqala Online</h2>
+<div id="cookies-box">
+  <div class="col-lg-4 col-md-3 col-12">
+    <div class="card">
+      <div class="image">
+        <img class="card-img-top img-fluid" src="nice.jpg" alt="" />
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">
+          <span>Doritos</span>
+        </h5>
+        <button type="button" onclick="addtoCart(0)" class="btn btn-primary">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-3 col-12">
+    <div class="card">
+      <div class="image">
+        <img class="card-img-top img-fluid" src="nice.jpg" alt="" />
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">
+          <span>Doritos</span>
+        </h5>
+        <button type="button" onclick="addtoCart(1)" class="btn btn-primary">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-3 col-12">
+    <div class="card">
+      <div class="image">
+        <img class="card-img-top img-fluid" src="nice.jpg" alt="" />
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">
+          <span>Doritos</span>
+        </h5>
+        <button type="button" onclick="addtoCart(2)" class="btn btn-primary">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+<h2>My cart</h2>
+<button style="width: 100px; height: 60px; border-radius: 20px; font-size: 22px;" onclick="clrarCart()" >Clear cart</button>
+
+<p id="lest"></p>
+
+<h2 id="total"></h2>
+</div>
+<!-- بونص ما خذيناه من قبل👑 -->
+<div id="loader">
+  <!-- قم بإضافة أيقونة التحميل هنا -->
+</div>
+<script src="/m.js">
+    // كود اختبار أيقونة التحميل
+  /*
+  let myVar;
+  function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+  }
+  function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("page").style.display = "block";
+  }
+  */
+</script>
+</body>
+
+</html>
