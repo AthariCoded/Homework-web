@@ -1,5 +1,4 @@
 // انشأت لكم مصفوفه بداخلها Objects
-
 let products =[
     {name:"Doritos small", price:0.1},
     {name:"Doritos larg ", price:0.15},
