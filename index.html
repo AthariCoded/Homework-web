@@ -13,6 +13,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Corinthia&display=swap" rel="stylesheet">
+<!-- included this for loader icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  
   <title>Baqala Online</title>
 </head>
@@ -73,9 +75,9 @@
   </div>
 </div>
 <h2>My cart</h2>
-<button style="width: 100px; height: 60px; border-radius: 20px; font-size: 22px;" onclick="clrarCart()" >Clear cart</button>
+<button style="width: 100px; height: 60px; border-radius: 20px; font-size: 22px;" onclick="clearCart()" >Clear cart</button>
+<ul id="list"></ul>
 
-<p id="lest"></p>
 
 <h2 id="total"></h2>
 </div>
@@ -91,10 +93,11 @@
 
 <div id="loader">
   <!-- قم بإضافة أيقونة التحميل هنا -->
+  <i class="fa fa-refresh fa-spin" style="font-size:32px"></i>
 </div>
 <script src="m.js">
     // كود اختبار أيقونة التحميل
-  /*
+  
   let myVar;
   function myFunction() {
     myVar = setTimeout(showPage, 3000);
@@ -103,7 +106,7 @@
     document.getElementById("loader").style.display = "none";
     document.getElementById("page").style.display = "block";
   }
-  */
+  
 </script>
 </body>
 
